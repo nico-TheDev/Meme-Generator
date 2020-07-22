@@ -13,5 +13,5 @@ const Image = styled.img`
 export default function MemeImg() {
   const { currentMeme, finalImg } = useContext(MemeContext);
 
-  return finalImg && <Image src={finalImg} alt={currentMeme.id} />;
+  return finalImg ? <Image src={finalImg} alt={currentMeme.id} /> : null;
 }
