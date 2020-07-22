@@ -10,6 +10,7 @@ const Navi = styled.nav`
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
+  font-family:Lucida,sans-serif;
 `;
 
 export default function Nav() {

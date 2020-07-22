@@ -8,7 +8,7 @@ export default function MemeContextProvider(props) {
     const [finalImg, setFinalImg] = useState(null);
     const [bodyData, setBodyData] = useState({
         username: "icon17",
-        password: "okayrinasaidesu",
+        password: "",
         font: "Impact",
         max_font_size: "35px",
         text0: "",
